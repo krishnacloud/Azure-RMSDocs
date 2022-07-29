@@ -292,6 +292,7 @@ After you've [configured the Azure Information Protection scanner](#configure-th
     - For a named instance: `Install-AIPScanner -SqlServerInstance SQLSERVER1\AIPSCANNER -Cluster Europe`
 
     - For SQL Server Express: `Install-AIPScanner -SqlServerInstance SQLSERVER1\SQLEXPRESS -Cluster Europe`
+    ** Please note SQL Express for Non-Production Lab environment  
 
     When you are prompted, provide the Active Directory credentials for the scanner service account.
 
